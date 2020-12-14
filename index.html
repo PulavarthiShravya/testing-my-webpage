@@ -1,0 +1,428 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Little Mix</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@800&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+        <style>
+
+            #about{}
+            #musicvideos{}
+            #Merchandise{}
+            #Concerts{}
+            #top{}
+            #social{}
+            
+            html{
+                scroll-behavior: smooth;
+            }
+
+            * {
+                box-sizing: border-box;
+            }
+
+            .column {
+                float: left;
+                width: 33.33%;
+                padding: 5px;
+            }
+
+            /* Clearfix (clear floats) */
+            .row::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+
+
+
+
+            /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+            @media only screen and (max-width: 600px) {
+
+                .column{
+                    width: 100%;
+                }
+
+                .button{
+                    background-color: rgb(224, 97, 118);
+                    border: none;
+                    color: white;
+                    padding: 15px 8px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    margin: 4px 7px;
+                    font-size: 13px;
+                    cursor: pointer;
+                }
+
+                .button2{
+                    background-color: rgb(71, 189, 189);
+                    border: none;
+                    color: white;
+                    padding: 15px 3px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    margin: 4px 2px;
+                    font-size: 12px;
+                    cursor: pointer;
+                }
+
+                .button3{
+                    background-color: lightblue;
+                    border: none;
+                    color: white;
+                    padding: 15px 3px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    margin: 4px 5px;
+                    font-size: 14px;
+                    cursor: pointer;
+                }
+
+                .button4{
+                    background-color: rgb(115, 230, 115);
+                    border: none;
+                    color: white;
+                    padding: 15px 5px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    margin: 4px 10px;
+                    font-size: 14px;
+                    cursor: pointer;
+                }
+
+                .button5{
+                    background-color: pink;
+                    border: none;
+                    color: white;
+                    padding: 15px 8px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    margin: 4px 5px;
+                    font-size: 14px;
+                    cursor: pointer;
+                }
+
+                .button6{
+                    background-color: white;
+                    border: none;
+                    color: black;
+                    padding: 15px 9px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    margin: 4px 13px;
+                    font-size: 14px;
+                    cursor: pointer;
+                }
+
+                table{
+                    font-family: 'Merriweather';
+                    font-size: 13px;
+                    border-collapse: collapse;
+                    width: 100%;
+                }
+
+                td, th{
+                    text-align: center;
+                    padding: 5px;
+                }
+
+
+                .button7{
+                    background-color: rgb(155, 111, 155);
+                    border: none;
+                    color: black;
+                    padding: 15px 5px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    margin: 4px 5px;
+                    font-size: 14px;
+                    cursor: pointer;
+                }
+
+                h2.confetti{
+                    font-family: 'Sansita Swashed';
+                    font-size: 20px;
+                    color: black;
+                }
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <h1 class = 'title'>Little Mix</h1>
+        <div class = 'menu'>
+            <a href = '#about' class = 'button'>About</a>
+            <a href = '#musicvideos' class = 'button'>Music Videos</a>
+            <a href = '#Merchandise' class = 'button'>Merchandise</a>
+            <a href = '#Concerts' class = 'button'>Concerts</a>
+            <a href = '#social' class = 'button'>Social Media</a>
+        </div>
+        <br>
+        
+        <div class = 'a' id = "top">
+            <div class = 'content'>
+                <h2>Little Mix</h2>
+                <img src = 'page1.jpg' alt = 'Little Mix' style = 'width: 70%' class = 'center'>
+                <h2>About Little Mix</h2>
+                <p>Little Mix is a British girl group formed in 2011. They were the first group to win the 'X-Factor' competition. Later on they signed with Simon Cowell's record label Syco Music and released a cover of Damien Rice's "Cannonball" as their winner's single, which debuted atop the UK Singles Chart upon release</p>
+                <br>
+                <h2>Members</h2>
+                <img src = 'Jade-Thirlwall-1.jpeg' alt = 'Jade' style="width:70%" class = 'Jade'>
+                <h3>Jade Thirwall</h3>
+                <img src = 'Perrie.jpg' alt = 'Perrie' style="width:65%" class = 'Pierrie'>
+                <h3>Perrie Edwards</h3>
+                <img src = 'anne.jpg' alt = 'Anne' style = 'width: 65%' class = 'Anne'>
+                <h3>Leigh-Anne Pinnock</h3>
+                <img src = 'Jesy.jpg' alt = 'Jesy' style = 'width: 70%' class = 'Jesy'>
+                <h3>Jesy Nelson</h3>
+                <br>
+
+            </div>   
+            
+            <br>
+            
+            <a href = "#top" class = 'button2'>Back to Top</a>
+            <a href = "#about" class = 'button2'>About</a>
+            <a href = "#musicvideos" class = 'button2'>Music Videos</a>
+            <a href = "#Merchandise" class = 'button2'>Merchandise</a>
+            <a href = "#Concerts" class = 'button2'>Concerts</a>
+            <a href = '#social' class = 'button2'>Social Media</a>
+        </div>
+
+        <br>
+        
+        <div class = 'b' id = "about">
+            <div class = content>
+                <h2 class = 'b'>About Little Mix Members</h2>
+                <img src = 'jadeconfetti.jpg' alt = 'JadeC' style = "width: 150px" class = 'Jade'>
+                <h3 class = 'jade'>Jade Amelia Thirwall</h3>
+                <p class = 'jade'>Thirwall was born on 26 December 1992. She was born and raised in Laygate area of South Shields, Tyne and Wear, England.She is a mixed blood of Egyptian & Yemeni [Mother] and English [Father]. She appeared on the X-Factor show in 2008 along with her other Little Mix members. Her favorite color is Teal and Purple. She loves to eat Lasange and biscuits. </p>
+                <img src = 'pierrieconfetti.jpg' alt = 'PierrieC' style = 'width: 150px' class = 'Pierrie'>
+                <h3 class = 'pierrie'>Perrie Louise Edwards</h3>
+                <p class = 'pierrie'>Edwardswas born on 10 July 1993. She was born South Shields, Tyne and Wear, England. She appeared on the X-Factor show in 2008 along with her other Little Mix members. Her favorite color is blue. She loves to indulge herself in Tacos.</p>
+                <img src = 'anneconfetti.jpg' alt = 'AnneC' style = 'width: 150px' class = 'Anne'>
+                <h3 class = 'anne'>Leigh-Anne Pinnock</h3>
+                <p class = 'anne'>Leigh-Anne Pinnock was born on 4 October 1991. She was raised in High Wycombe, Buckinghamshire, England. Pinnock is of Barbadian and Jamaican ancestry.She appeared on the X-Factor show in 2008 along with her other Little Mix members. Her favorite color is green. She loves to eat Nachos.</p>
+                <img src = 'jesyconfetti.jpg' alt = 'JesyC' style = 'width: 150px' class = 'Jesy'>
+                <h3 class = 'jesy'>Jesy Lousie Nelson</h3>
+                <p class = 'jesy'>Jessica Louise Nelson was born on 14 June 1991. She was raised in Romford, East London, England. She appeared on the X-Factor show in 2008 along with her other Little Mix members. Her favorite color is pink. She loves to eat is Nando's. </p>
+
+                <br>
+
+            </div>
+
+            <br>
+            
+            <a href = "#top" class = 'button3'>Back to Top</a>
+            <a href = "#musicvideos" class = 'button3'>Music Videos</a>
+            <a href = "#Merchandise" class = 'button3'>Merchandise</a>
+            <a href = "#Concerts" class = 'button3'>Concerts</a>
+            <a href = '#social' class = 'button3'>Social Media</a>
+        </div>
+
+        <br>
+
+        <div class = 'c' id = 'musicvideos'>
+            <div class = 'content'>
+                <h2>Music Videos</h2>
+                <h3 class = 'c'>Confetti Album</h3>
+                <img src = 'confetti.png' alt = 'confetti' style = 'width: 200px' class = 'confetti'>
+                <br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/EbCBN8u1U7M" class = 'confetti'>
+                </iframe>
+
+                <br>
+
+            </div>
+
+            <br>
+            
+            <a href = "#top" class = 'button4'>Back to Top</a>
+            <a href = "#about" class = 'button4'>About</a>
+            <a href = "#Merchandise" class = 'button4'>Merchandise</a>
+            <a href = "#Concerts" class = 'button4'>Concerts</a>
+            <a href = '#social' class = 'button4'>Social Media</a>
+        </div>
+
+        <br>
+
+        <div class = 'd' id = 'Merchandise'>
+            <br>
+            <h2 class = 'd'>Confetti Merchandise</h2>
+            <div class = 'row'>
+                <div class = 'column'>
+                    <img src = 'confettiCD.png' alt = 'CD' style = 'width: 70%'>
+                    <p class = 'merchandise'>Confetti Splatter CD</p>  
+                    <p class = 'merchandise'>Sold Out</p> 
+                </div>
+                <div class = 'column'>
+                    <img src = 'ultimateCD.jpg' alt = 'Ultimate' style = 'width: 70%'>
+                    <p class = 'merchandise'>Ultimate Confetti CD</p>
+                    <p class = 'merchandise'>EUR 90.00</p>
+                </div>
+                <div class = 'column'>
+                    <img src = 'CD.jpg' alt = 'Official CD' style = 'width: 70%'>
+                    <p class = 'merchandise'>Confetti Standard CD</p>
+                    <p class = 'merchandise'>EUR 11.00</p>
+                </div>
+                <div class = 'column'>
+                    <img src = 'jadeCD.jpg' alt = 'JFace' style = 'width: 70%'>
+                    <p class = 'merchandise'>Confetti (Jade)</p>
+                    <p class = 'merchandise'>EUR 25.00</p>
+                </div>
+                <div class = 'column'>
+                    <img src = 'jesyCD.jpg' alt = 'Jface' style = 'width: 70%'>
+                    <p class = 'merchandise'>Confetti (Jesy)</p>
+                    <p class = 'merchandise'>EUR 25.00</p>
+                </div>
+                <div class = 'column'>
+                    <img src = 'leighAnneCD.jpg' alt = 'lFace' style = 'width: 70%'>
+                    <p class = 'merchandise'>Confetti (Leigh-Anne)</p>
+                    <p class = 'merchandise'>EUR 25.00</p>
+                </div>
+                <div class = 'column'>
+                    <img src = 'perrieCD.jpg' alt = 'PFace' style = 'width: 70%'>
+                    <p class = 'merchandise'>Confetti (Perrie Edwards)</p>
+                    <p class = 'merchandise'>EUR 25.00</p>
+                </div>
+            </div>
+
+            <br>
+            <a href = "#top" class = 'button5'>Back to Top</a>
+            <a href = "#about" class = 'button5'>About</a>
+            <a href = "#musicvideos" class = 'button5'>Music Video</a>
+            <a href = "#Concerts" class = 'button5'>Concerts</a>
+            <a href = '#social' class = 'button5'>Social Media</a>
+        </div>
+
+        <br>
+
+        <div class = 'e' id = 'Concerts'>
+            <div class = 'content2'>
+                <h2 class = 'e'>Upcoming Concerts</h2>
+                <br><br>
+                <table>
+                    <tr>
+                        <th>Date</th>
+                        <th>Place</th>
+                        <th>Country</th>
+                        <th>Book Now!</th>
+                    </tr>
+
+                    <tr>
+                        <td>28 April 2021</td>
+                        <td>3 Arena</td>
+                        <td>Dublin, Ireland</td>
+                        <td><button class = 'button6'>Book Now</button></td>
+                    </tr>
+
+                    <tr>
+                        <td>29 April 2021</td>
+                        <td>3 Arena</td>
+                        <td>Dublin, Ireland</td>
+                        <td><button class = 'button6'>Book Now</button></td>
+                    </tr>
+
+                    <tr>
+                        <td>1 May 2021</td>
+                        <td>SSE Arena</td>
+                        <td>Belfast, UK</td>
+                        <td><button class = 'button6'>Book Now</button></td>
+                    </tr>
+
+                    <tr>
+                        <td>2 May 2021</td>
+                        <td>SSE Arena</td>
+                        <td>Belfast, UK</td>
+                        <td><button class = 'button6'>Book Now</button></td>
+                    </tr>
+
+                    <tr>
+                        <td>4 May 2021</td>
+                        <td>M&S Bank Area</td>
+                        <td>Liverpool, UK</td>
+                        <td><button class = 'button6'>Book Now</button></td>
+                    </tr>
+
+                    <tr>
+                        <td>5 May 2021</td>
+                        <td>Flydsa Arena</td>
+                        <td>Sheffield, UK</td>
+                        <td><button class = 'button6'>Book Now</button></td>
+                    </tr>
+
+                    <tr>
+                        <td>7 May 2021</td>
+                        <td>Utilita Arena</td>  
+                        <td>Newcastle, UK</td>
+                        <td><button class = 'button6'>Book Now</button></td> 
+                    </tr>
+
+                    <tr>
+                        <td>8 May 2021</td>
+                        <td>Utilita Arena</td>
+                        <td>Newcastle, UK</td>
+                        <td><button class = 'button6'>Book Now</button></td>
+                    </tr>
+
+                    <tr>
+                        <td>10 May 2021</td>
+                        <td>Motorpoint Arena</td>
+                        <td>Cardiff, UK</td>
+                        <td><button class = 'button6'>Book Now</button></td>
+                    </tr>
+
+                    <tr>
+                        <td>11 May 2021</td>
+                        <td>First Direct Arena</td>
+                        <td>Leeds, UK</td>
+                        <td><button class = 'button6'>Book Now</button></td>
+                    </tr>
+                </table>
+
+                <br>
+
+            </div>
+            <br>
+            
+            <a href = "#top" class = 'button7'>Back to Top</a>
+            <a href = "#about" class = 'button7'>About</a>
+            <a href = "#musicvideos" class = 'button7'>Music Video</a>
+            <a href = "#Merchandise" class = 'button7'>Merchandise</a>
+            <a href = '#social' class = 'button7'>Social Media</a>
+
+        </div>
+
+        <br>
+
+        <div class = 'f' id = 'social'>
+            <h2 class = 'confetti'>From the sky, drop like Confetti</h2>
+            <img src = 'images/poster.png' alt = 'poster' style = 'width: 70%' class = 'poster' class = 'poster'>
+            <p class = 'ig'><img src = 'instagram.png' alt = 'ig' style = 'width: 3.5%'><a href = "https://www.instagram.com/littlemix/?hl=en" target = "_blank">@littlemix</a></p>
+            <p class = 'twitter'><img src = 'twitter.png' alt = 'tweet' style = 'width: 3.5%'><a href = "https://twitter.com/LittleMix?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target = "_blank">Little Mix</a></p>
+        </div>
+    </body>
+</html>
